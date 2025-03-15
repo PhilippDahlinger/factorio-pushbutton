@@ -5,20 +5,20 @@ p.minable.result = "pushbutton"
 
 p.pulse_duration = 1
 
-p.icon = "__pushbutton__/graphics/pushbutton-icon.png"
+p.icon = "__huge_pushbutton__/graphics/pushbutton-icon.png"
 p.icon_size = 64
 p.sprites =
   make_4way_animation_from_spritesheet({ layers =
     {
       {
-        filename = "__pushbutton__/graphics/pushbutton.png",
+        filename = "__huge_pushbutton__/graphics/pushbutton.png",
         width = 64,
         height = 64,
         shift = util.by_pixel(0, 0),
         scale = 0.5,
       },
       {
-        filename = "__pushbutton__/graphics/pushbuttonsh.png",
+        filename = "__huge_pushbutton__/graphics/pushbuttonsh.png",
         width = 96,
         height = 64,
         shift = util.by_pixel(8, 0),
@@ -32,28 +32,28 @@ local activity_led_light_offset = {0, 0}
 p.activity_led_sprites =
 {
   north = {
-    filename = "__pushbutton__/graphics/buttonled.1.png",
+    filename = "__huge_pushbutton__/graphics/buttonled.1.png",
     width = 64,
     height = 64,
     draw_as_glow = true,
     scale = 0.5,
   },
   east = {
-    filename = "__pushbutton__/graphics/buttonled.2.png",
+    filename = "__huge_pushbutton__/graphics/buttonled.2.png",
     width = 64,
     height = 64,
     draw_as_glow = true,
     scale = 0.5,
   },
   south = {
-    filename = "__pushbutton__/graphics/buttonled.3.png",
+    filename = "__huge_pushbutton__/graphics/buttonled.3.png",
     width = 64,
     height = 64,
     draw_as_glow = true,
     scale = 0.5,
   },
   west = {
-    filename = "__pushbutton__/graphics/buttonled.4.png",
+    filename = "__huge_pushbutton__/graphics/buttonled.4.png",
     width = 64,
     height = 64,
     draw_as_glow = true,
