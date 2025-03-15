@@ -30,8 +30,8 @@ p.sprites =
   })
 
 -- Set collision box to match the 4x4 size
-p.collision_box = {{-1.5, -1.5}, {1.5, 1.5}}  -- 4x4 tiles collision box
-p.selection_box = {{-1.5, -1.5}, {1.5, 1.5}}  -- 4x4 tiles selection box
+p.collision_box = {{-1.75, -1.75}, {1.75, 1.75}}  -- 4x4 tiles collision box
+p.selection_box = {{-1.75, -1.75}, {1.75, 1.75}}  -- 4x4 tiles selection box
 local activity_led_light_offset = {0, 0}
 p.activity_led_sprites =
 {
