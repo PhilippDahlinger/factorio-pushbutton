@@ -1,7 +1,7 @@
 data:extend{
   {
     type = "recipe",
-    name = "pushbutton",
+    name = "huge_pushbutton",
     enabled = false,
     ingredients =
     {
@@ -9,7 +9,7 @@ data:extend{
       {type = "item", name = "electronic-circuit", amount = 2}
     },
     results={
-      {type="item", name="pushbutton", amount=1},
+      {type="item", name="huge_pushbutton", amount=1},
     },
   } --[[@as data.RecipePrototype]],
 }

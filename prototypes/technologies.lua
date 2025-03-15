@@ -5,6 +5,6 @@ if data.raw.technology["circuit-network"] then
   table.insert(data.raw.technology["circuit-network"].effects,
     {
       type = "unlock-recipe",
-      recipe = "pushbutton"
+      recipe = "huge_pushbutton"
     })
 end

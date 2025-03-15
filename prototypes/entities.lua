@@ -1,7 +1,7 @@
 local util = require("util")
 local p = table.deepcopy(data.raw["constant-combinator"]["constant-combinator"])
-p.name = "pushbutton"
-p.minable.result = "pushbutton"
+p.name = "huge_pushbutton"
+p.minable.result = "huge_pushbutton"
 
 p.pulse_duration = 1
 
