@@ -22,7 +22,7 @@ p.sprites =
         filename = "__huge_pushbutton__/graphics/pushbuttonsh.png",
         width = 384,  -- shadow for 4 tiles width
         height = 256,  -- shadow for 4 tiles height
-        shift = util.by_pixel(8, 0),
+        shift = util.by_pixel(32, 0),
         draw_as_shadow = true,
         scale = 0.5,
       },
