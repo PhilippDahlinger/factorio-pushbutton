@@ -1,13 +1,16 @@
 {
   "name": "huge_pushbutton",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "factorio_version": "2.0",
   "title": "Huge Pushbutton",
   "author": "2birdbrained4u",
   "homepage": "",
   "contact": "2birdbrained4u@gmx.de",
-  "description": "A Pushbutton that emits the configured signal as a pulse when pressed. This mod contains models for 1x1 to 5x5 buttons",
-  "dependencies": ["base >= 2.0.30"],
+  "description": "This is an extension to the popular pushbutton mod (https://mods.factorio.com/mod/pushbutton) which contains a 4x4 button model",
+  "dependencies": [
+    "base >= 2.0.30",
+    "pushbutton >= 2.0.3"
+  ],
   "package": {
     "ignore": [
       "**/*.blend"
